@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+* {
+    color: white;
+    margin: 0;
+}
+
+body {
+    background-image: url('../images/chuck-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#title {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-family: 'Rajdhani';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#subtitle {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: 'Rajdhani';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.flex-col-align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 50%;
+    max-width: 100%;
+}
+
+#img-caption {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+}
+
+#tribute-info {
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #CCC;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#tribute-link {
+    margin-bottom: 30px;
+    color: #CCC;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+}
+
+#tribute-link:hover {
+    color: #333;
+}
+
+footer {
+    font-size: 12px;
+    margin-bottom: 20px;
+    background: #ffffff20;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
