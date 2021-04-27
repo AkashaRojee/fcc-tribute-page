@@ -41,6 +41,7 @@ img {
 }
 
 #img-caption {
+    width: 50%;
     margin-top: 10px;
     margin-bottom: 30px;
     font-size: 16px;
@@ -65,6 +66,8 @@ img {
     color: #CCC;
     font-family: 'Roboto Condensed';
     font-weight: 700;
+    text-align: center;
+    width: 100%;
 }
 
 #tribute-link:hover {
